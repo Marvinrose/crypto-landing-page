@@ -1,6 +1,6 @@
 ## crypto-landing-page
 
-Generated with ❤️ from [Marvinrose](https://react-portfolio-delta-nine.vercel.app/)
+Built with ❤️ by [Marvinrose](https://react-portfolio-delta-nine.vercel.app/)
 
 ## Description
 
@@ -32,12 +32,6 @@ Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br>
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time.
 
 ## Installing a Dependency
 
