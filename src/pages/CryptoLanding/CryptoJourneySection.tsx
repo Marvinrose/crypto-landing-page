@@ -11,11 +11,15 @@ export default function CryptoJourneySection() {
             <Heading
               size="headingxl"
               as="h2"
-              className="text-[48px] font-semibold tracking-[-1.92px] !text-gray-900_06 md:text-[44px] sm:text-[38px]"
+              className="!text-5xl font-semibold tracking-[-1.92px] !text-gray-900_06 md:text-5xl sm:text-4xl"
             >
               Begin Your Crypto Journey Today!
             </Heading>
-            <Button size="lg" shape="round" className="min-w-[152px] rounded-lg px-5 font-semibold">
+            <Button
+              size="lg"
+              shape="round"
+              className="min-w-[152px] rounded-lg px-5 font-semibold"
+            >
               Sign Up Now
             </Button>
           </div>
