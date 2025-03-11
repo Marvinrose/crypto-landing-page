@@ -84,7 +84,11 @@ export default function CryptoStakingSection() {
           <div className="container-xs flex flex-col items-center gap-10 md:px-5">
             <div className="flex flex-col gap-[38px] self-stretch">
               <div className="flex flex-col items-center bg-gray-100 px-14 md:px-5">
-                <Heading size="headingmd" as="h2" className="!text-[20px] font-semibold !text-gray-900_06">
+                <Heading
+                  size="headingmd"
+                  as="h2"
+                  className="!text-[20px] font-semibold !text-gray-900_06"
+                >
                   STAKING CRYPTO
                 </Heading>
                 <Heading
@@ -94,17 +98,86 @@ export default function CryptoStakingSection() {
                 >
                   Earn Crypto Rewards
                 </Heading>
-                <Text size="textmd" as="p" className="mt-1 !text-[16px] font-normal !text-blue_gray-800_02">
+                <Text
+                  size="textmd"
+                  as="p"
+                  className="mt-1 !text-[16px] font-normal !text-blue_gray-800_02"
+                >
                   Earn up to 40% in reward yearly by staking your assets
                 </Text>
               </div>
               <div className="bg-gray-100">
                 <div className="grid grid-cols-5 gap-[38px] gap-y-10 md:grid-cols-3 sm:grid-cols-1">
-                  <Suspense fallback={<div>Loading feed...</div>}>
-                    {annualRewardsGrid.map((d, index) => (
-                      <AnnualRewardsDisplay {...d} key={"gridannual" + index} />
-                    ))}
-                  </Suspense>
+                  <AnnualRewardsDisplay
+                    rewardImage="images/img_sol_solana_48x48.png"
+                    currencyName="Solana"
+                    currencySymbol="(SOL)"
+                    rewardTitle="Annual rewards"
+                    rewardPercentage="9-12%"
+                  />
+                  <AnnualRewardsDisplay
+                    rewardImage="images/BNB.png"
+                    currencyName="Binance"
+                    currencySymbol="(BNB)"
+                    rewardTitle="Annual rewards"
+                    rewardPercentage="12-30%"
+                  />
+                  <AnnualRewardsDisplay
+                    rewardImage="images/cosmos.png"
+                    currencyName="Cosmos"
+                    currencySymbol="(ATOM)"
+                    rewardTitle="Annual rewards"
+                    rewardPercentage="8-14%"
+                  />
+                  <AnnualRewardsDisplay
+                    rewardImage="images/img_wan_wanchain.png"
+                    currencyName="Wanchain"
+                    currencySymbol="(WAN)"
+                    rewardTitle="Annual rewards"
+                    rewardPercentage="6-10%"
+                  />
+                  <AnnualRewardsDisplay
+                    rewardImage="images/img_dash_dash.png"
+                    currencyName="DASH"
+                    currencySymbol="(DASH)"
+                    rewardTitle="Annual rewards"
+                    rewardPercentage="5-12%"
+                  />
+                  <AnnualRewardsDisplay
+                    rewardImage="images/DigiByte.png"
+                    currencyName="DigiByte"
+                    currencySymbol="(DBG)"
+                    rewardTitle="Annual rewards"
+                    rewardPercentage="15-25%"
+                  />
+                  <AnnualRewardsDisplay
+                    rewardImage="images/img_ont_ontology_token.png"
+                    currencyName="Ontology"
+                    currencySymbol="(ONT)"
+                    rewardTitle="Annual rewards"
+                    rewardPercentage="20-30%"
+                  />
+                  <AnnualRewardsDisplay
+                    rewardImage="images/Viacoin.png"
+                    currencyName="Viacoin"
+                    currencySymbol="(VIA)"
+                    rewardTitle="Annual rewards"
+                    rewardPercentage="9-14%"
+                  />
+                  <AnnualRewardsDisplay
+                    rewardImage="images/img_usdt_tether.png"
+                    currencyName="Tether"
+                    currencySymbol="(USDT)"
+                    rewardTitle="Annual rewards"
+                    rewardPercentage="10-20%"
+                  />
+                  <AnnualRewardsDisplay
+                    rewardImage="images/Neo.png"
+                    currencyName="Neo"
+                    currencySymbol="(NEO)"
+                    rewardTitle="Annual rewards"
+                    rewardPercentage="8-12%"
+                  />
                 </div>
               </div>
             </div>
