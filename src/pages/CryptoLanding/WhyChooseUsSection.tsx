@@ -12,16 +12,19 @@ const securityFeaturesList = [
         centralized and decentralized methods.
       </>
     ),
+    imageSrc: "images/img_blockchain.svg",
   },
   {
     secureStorageTitle: "Insurance Protection",
     secureStorageDescription:
       "All crypto cash and balances are maintained and insured by NIDC up to a maximum of $400,000.",
+    imageSrc: "images/insurance.png",
   },
   {
     secureStorageTitle: "Personalized Access Control",
     secureStorageDescription:
       "Personalized access control allows you to restrict devices and addresses that can access your account, for greater ease of mind.",
+    imageSrc: "images/personalized.png",
   },
 ];
 
@@ -40,14 +43,22 @@ export default function WhyChooseUsSection() {
               >
                 Your Most Reliable Crypto Exchange
               </Heading>
-              <Text size="textxl" as="p" className="!text-[20px] font-normal !text-blue_gray-800_02">
+              <Text
+                size="textxl"
+                as="p"
+                className="!text-[20px] font-normal !text-blue_gray-800_02"
+              >
                 Here are some reasons why you should choose VeeWallet
               </Text>
             </div>
             <div className="flex gap-[196px] md:flex-col">
               <Suspense fallback={<div>Loading feed...</div>}>
                 {securityFeaturesList.map((d, index) => (
-                  <SecureStorageIllustration {...d} key={"content" + index} className="w-[32%] md:w-full" />
+                  <SecureStorageIllustration
+                    {...d}
+                    key={"content" + index}
+                    className="w-[32%] md:w-full"
+                  />
                 ))}
               </Suspense>
             </div>
