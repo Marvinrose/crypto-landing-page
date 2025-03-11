@@ -25,17 +25,17 @@ export default function AnnualRewardsDisplay({
     >
       <Img src={rewardImage} alt="Annual Rewards" className="h-[48px] rounded-[24px] object-cover" />
       <div className="flex flex-wrap gap-1">
-        <Heading size="headingmd" as="h5" className="text-[20px] font-semibold !text-gray-900_06">
+        <Heading size="headingmd" as="h5" className="!text-[20px] font-semibold !text-gray-900_06">
           {currencyName}
         </Heading>
-        <Heading size="headingmd" as="h5" className="text-[20px] font-semibold !text-gray-500">
+        <Heading size="headingmd" as="h5" className="!text-[20px] font-semibold !text-gray-500">
           {currencySymbol}
         </Heading>
       </div>
-      <Heading size="heading3xl" as="p" className="text-[14px] font-semibold !text-gray-900_06">
+      <Heading size="heading3xl" as="p" className="!text-[14px] font-semibold !text-gray-900_06">
         {rewardTitle}
       </Heading>
-      <Text size="textmd" as="p" className="text-[16px] font-normal !text-teal-500">
+      <Text size="textmd" as="p" className="!text-[16px] font-normal !text-teal-500">
         {rewardPercentage}
       </Text>
     </div>

@@ -36,11 +36,11 @@ export default function WhyChooseUsSection() {
               <Heading
                 size="headinglg"
                 as="h4"
-                className="text-[39px] font-semibold tracking-[-0.78px] !text-gray-900_06 md:text-[37px] sm:text-[35px]"
+                className="!text-[39px] font-semibold tracking-[-0.78px] !text-gray-900_06 md:text-[37px] sm:text-[35px]"
               >
                 Your Most Reliable Crypto Exchange
               </Heading>
-              <Text size="textxl" as="p" className="text-[20px] font-normal !text-blue_gray-800_02">
+              <Text size="textxl" as="p" className="!text-[20px] font-normal !text-blue_gray-800_02">
                 Here are some reasons why you should choose VeeWallet
               </Text>
             </div>

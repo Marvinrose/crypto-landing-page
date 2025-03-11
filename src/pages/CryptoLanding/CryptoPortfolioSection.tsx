@@ -37,11 +37,11 @@ export default function CryptoPortfolioSection() {
             <Heading
               size="headinglg"
               as="h2"
-              className="text-[39px] font-semibold tracking-[-0.78px] !text-gray-900_06 md:text-[37px] sm:text-[35px]"
+              className="!text-[39px] font-semibold tracking-[-0.78px] !text-gray-900_06 md:text-[37px] sm:text-[35px]"
             >
               Start Building Your Crypto Portifolio
             </Heading>
-            <Text size="textxl" as="p" className="text-[20px] font-normal !text-blue_gray-800_02">
+            <Text size="textxl" as="p" className="!text-[20px] font-normal !text-blue_gray-800_02">
               Follow these simple steps to start your first trade.
             </Text>
           </div>

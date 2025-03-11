@@ -18,13 +18,13 @@ export default function SecureStorageIllustration({
         <Img src="images/img_blockchain.svg" alt="Secure Storage" className="h-[126px] w-full" />
       </div>
       <div className="flex flex-col items-center gap-2.5 self-stretch">
-        <Heading size="headingmd" as="h5" className="text-[20px] font-semibold !text-gray-900_06">
+        <Heading size="headingmd" as="h5" className="!text-[20px] font-semibold !text-gray-900_06">
           {secureStorageTitle}
         </Heading>
         <Text
           size="textmd"
           as="p"
-          className="self-stretch text-center text-[16px] font-normal leading-6 !text-blue_gray-800_02"
+          className="self-stretch text-center !text-[16px] font-normal leading-6 !text-blue_gray-800_02"
         >
           {secureStorageDescription}
         </Text>

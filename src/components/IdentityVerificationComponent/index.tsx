@@ -20,10 +20,10 @@ export default function IdentityVerificationComponent({
         <Img src={iconImage} alt="Image" className="h-[52px] w-full" />
       </div>
       <div className="flex flex-1 flex-col items-start gap-2 sm:self-stretch">
-        <Heading size="heading4xl" as="h5" className="text-[23px] font-semibold tracking-[-0.46px] !text-gray-900_06">
+        <Heading size="heading4xl" as="h5" className="!text-[23px] font-semibold tracking-[-0.46px] !text-gray-900_06">
           {headingText}
         </Heading>
-        <Text size="textmd" as="p" className="w-full text-[16px] font-normal leading-6 !text-blue_gray-800_02">
+        <Text size="textmd" as="p" className="w-full !text-[16px] font-normal leading-6 !text-blue_gray-800_02">
           {descriptionText}
         </Text>
       </div>

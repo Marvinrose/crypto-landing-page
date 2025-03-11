@@ -11,7 +11,7 @@ export default function CryptoJourneySection() {
             <Heading
               size="headingxl"
               as="h2"
-              className="!text-5xl font-semibold tracking-[-1.92px] !text-gray-900_06 md:text-5xl sm:text-4xl"
+              className=" font-semibold tracking-[-1.92px] !text-gray-900_06 md:text-5xl sm:text-4xl"
             >
               Begin Your Crypto Journey Today!
             </Heading>

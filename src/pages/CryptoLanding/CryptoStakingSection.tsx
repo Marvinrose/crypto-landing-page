@@ -84,17 +84,17 @@ export default function CryptoStakingSection() {
           <div className="container-xs flex flex-col items-center gap-10 md:px-5">
             <div className="flex flex-col gap-[38px] self-stretch">
               <div className="flex flex-col items-center bg-gray-100 px-14 md:px-5">
-                <Heading size="headingmd" as="h2" className="text-[20px] font-semibold !text-gray-900_06">
+                <Heading size="headingmd" as="h2" className="!text-[20px] font-semibold !text-gray-900_06">
                   STAKING CRYPTO
                 </Heading>
                 <Heading
                   size="headinglg"
                   as="h3"
-                  className="mt-2.5 text-[39px] font-semibold tracking-[-0.78px] !text-teal-400 md:text-[37px] sm:text-[35px]"
+                  className="mt-2.5 !text-[39px] font-semibold tracking-[-0.78px] !text-teal-400 md:text-[37px] sm:text-[35px]"
                 >
                   Earn Crypto Rewards
                 </Heading>
-                <Text size="textmd" as="p" className="mt-1 text-[16px] font-normal !text-blue_gray-800_02">
+                <Text size="textmd" as="p" className="mt-1 !text-[16px] font-normal !text-blue_gray-800_02">
                   Earn up to 40% in reward yearly by staking your assets
                 </Text>
               </div>
